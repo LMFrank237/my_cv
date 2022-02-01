@@ -1,0 +1,64 @@
+.shape2{
+    width: 66px;
+    height: 33px;
+    background-color: gray;
+    position: fixed;
+    top: 10px;
+    left: 92%;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.circle{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 3.5px;
+    right: 37px;
+    animation: move1 0.1s ease-in;
+}
+
+.circle2{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 3.5px;
+    right: 4px;
+    animation: move2 0.1s ease-in;
+}
+
+@keyframes move2{
+    from{
+        right: 35px;
+    }
+    to{
+        right: 6px;
+    }
+}
+
+@keyframes move1{
+    from{
+        right: 5px;
+    }
+    to{
+        right: 35px;
+    }
+}
+
+
+@media screen and (max-width: 840px){
+    .shape2{
+        left: 84%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .shape2{
+        left: 70%;
+    }
+}

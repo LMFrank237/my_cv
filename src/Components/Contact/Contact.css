@@ -1,0 +1,55 @@
+.containerC{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.div1C{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;   
+}
+
+.div2C{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.div1C_s{
+    width: 80%;
+    height: 85%;
+    margin: auto;
+}
+
+.div1C_s h1{
+    font-size: 55px;
+    margin-bottom: 5vh;
+}
+
+.contact{
+    width: 100%;
+    height: 70%;
+    margin: auto;
+}
+
+.contact1, .contact2, .contact3{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.contact1 p, .contact2 p, .contact3 p{
+    padding-left: 1vw;
+}
+
+.imgC{
+    width: 40px;
+    height: 40px;
+}

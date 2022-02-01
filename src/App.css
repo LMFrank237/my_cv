@@ -1,3 +1,19 @@
+/* From traversy */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+/*@import url("./vars.css");*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*end */
+
 .App {
   text-align: center;
 }
@@ -20,7 +36,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin); 
   color: white;
 }
 
@@ -35,4 +51,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* ScrollBar */
+html{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+html::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+html::-webkit-scrollbar-thumb {
+  background-color: var(--lmprim);
+}
+
+/* Handle on hover */
+html::-webkit-scrollbar-thumb:hover {
+  background: var(--lmprim);
 }
